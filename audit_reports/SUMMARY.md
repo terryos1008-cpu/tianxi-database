@@ -1,6 +1,6 @@
-# Data Integrity Audit · 2026-06-16
+# Data Integrity Audit · 2026-06-17
 
-**Overall:** 🔴 `critical`  ·  critical gaps: **50**  ·  warn gaps: 20
+**Overall:** 🔴 `critical`  ·  critical gaps: **50**  ·  warn gaps: 21
 
 **Recommendation:** `gha_next_delta_will_fix`
 
@@ -17,7 +17,7 @@
 | trainer_profiles | 🟢 ok | 32 | 32 | 0 | 0 | total trainer profiles: 67 |
 | trainer_records | 🟢 ok | 67 | 67 | 0 | 0 |  |
 | trial_results | 🟢 ok | 1 | 1 | 0 | 0 | trial rows: 5904 |
-| entries_upcoming | 🟡 warn | 1 | 0 | 1 | 0 | 1 upcoming race days lack entries file |
+| entries_upcoming | 🟡 warn | 2 | 0 | 2 | 0 | 2 upcoming race days lack entries file |
 
 ### 🔴 race_artefacts — sample missing (first 20)
 
