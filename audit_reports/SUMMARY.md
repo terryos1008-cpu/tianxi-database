@@ -1,6 +1,6 @@
-# Data Integrity Audit · 2026-06-21
+# Data Integrity Audit · 2026-06-22
 
-**Overall:** 🔴 `critical`  ·  critical gaps: **55**  ·  warn gaps: 22
+**Overall:** 🔴 `critical`  ·  critical gaps: **55**  ·  warn gaps: 21
 
 **Recommendation:** `gha_next_delta_will_fix`
 
@@ -10,14 +10,14 @@
 |---|---|---|---|---|---|---|
 | race_artefacts | 🔴 critical | 680 | 625 | 55 | 0 | days with any missing artefact: 11 |
 | fixtures_cache | 🟢 ok | 1 | 143 | 0 | 0 | total cached race days: 143 |
-| horse_profiles | 🟡 warn | 1194 | 1194 | 0 | 14 | 14 profiles are stale (profile_last_scraped < last_race_date); total profiles in DB: 5952 |
-| horse_form_records | 🟢 ok | 1194 | 1194 | 0 | 0 | total form_records files: 5952 |
-| jockey_profiles | 🟢 ok | 35 | 35 | 0 | 0 | total jockey profiles: 64 |
+| horse_profiles | 🟡 warn | 1186 | 1186 | 0 | 14 | 14 profiles are stale (profile_last_scraped < last_race_date); total profiles in DB: 5952 |
+| horse_form_records | 🟢 ok | 1186 | 1186 | 0 | 0 | total form_records files: 5952 |
+| jockey_profiles | 🟢 ok | 34 | 34 | 0 | 0 | total jockey profiles: 64 |
 | jockey_records | 🟡 warn | 64 | 59 | 5 | 0 | 5 jockey profiles have no records file |
 | trainer_profiles | 🟢 ok | 32 | 32 | 0 | 0 | total trainer profiles: 67 |
 | trainer_records | 🟢 ok | 67 | 67 | 0 | 0 |  |
 | trial_results | 🟢 ok | 1 | 1 | 0 | 0 | trial rows: 5904 |
-| entries_upcoming | 🟡 warn | 3 | 0 | 3 | 0 | 3 upcoming race days lack entries file |
+| entries_upcoming | 🟡 warn | 2 | 0 | 2 | 0 | 2 upcoming race days lack entries file |
 
 ### 🔴 race_artefacts — sample missing (first 20)
 
