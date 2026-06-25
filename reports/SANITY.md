@@ -1,26 +1,26 @@
 # Capy Sanity Report
 
-_Generated 2026-06-24T06:10Z (HK today = 2026-06-24)_
+_Generated 2026-06-25T06:12Z (HK today = 2026-06-25)_
 
 ## Workflow status (last 5 runs each)
 
 | Workflow | Last status | Last time | 48h success |
 |---|---|---|---|
-| capy_pool_a | failure | 2026-06-24T00:41:03Z | 0 |
-| capy_pool_b_daily | failure | 2026-06-23T20:05:44Z | 0 |
+| capy_pool_a | failure | 2026-06-25T00:41:16Z | 0 |
+| capy_pool_b_daily | failure | 2026-06-24T19:48:02Z | 0 |
 | capy_entries | failure | 2026-06-23T14:47:05Z | 0 |
-| capy_race_daily | failure | 2026-06-23T17:27:09Z | 1 |
-| capy_trainer_fix | success | 2026-06-23T19:09:37Z | 2 |
+| capy_race_daily | failure | 2026-06-24T17:28:09Z | 0 |
+| capy_trainer_fix | success | 2026-06-24T18:54:59Z | 2 |
 | capy_fixture_weekly | failure | 2026-06-21T22:10:23Z | 0 |
 
 ## Data freshness
 
 | Artefact | Last commit | Rows |
 |---|---|---|
-| data/fixtures/fixtures.csv | 2026-06-17 08:26:42 +0000 | 144 |
+| data/fixtures/fixtures.csv | 2026-06-18 08:06:21 +0000 | 144 |
 | data/pool_a_horses.csv | MISSING | — |
-| trainers/trainer_profiles.csv | 2026-06-17 08:26:42 +0000 | 68 |
+| trainers/trainer_profiles.csv | 2026-06-18 08:06:21 +0000 | 68 |
 
 ## Today's fixture
 
-Today (2026-06-24) **IS** a race day.
+Today (2026-06-25) is not a race day.
