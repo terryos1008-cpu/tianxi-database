@@ -1,6 +1,6 @@
-# Data Integrity Audit · 2026-07-14
+# Data Integrity Audit · 2026-07-15
 
-**Overall:** 🔴 `critical`  ·  critical gaps: **85**  ·  warn gaps: 20
+**Overall:** 🔴 `critical`  ·  critical gaps: **90**  ·  warn gaps: 20
 
 **Recommendation:** `gha_next_delta_will_fix`
 
@@ -8,7 +8,7 @@
 
 | Category | Severity | Expected | Present | Missing | Stale | Notes |
 |---|---|---|---|---|---|---|
-| race_artefacts | 🔴 critical | 710 | 625 | 85 | 0 | days with any missing artefact: 17 |
+| race_artefacts | 🔴 critical | 715 | 625 | 90 | 0 | days with any missing artefact: 18 |
 | fixtures_cache | 🟢 ok | 1 | 143 | 0 | 0 | total cached race days: 143 |
 | horse_profiles | 🟡 warn | 1148 | 1148 | 0 | 14 | 14 profiles are stale (profile_last_scraped < last_race_date); total profiles in DB: 5952 |
 | horse_form_records | 🟢 ok | 1148 | 1148 | 0 | 0 | total form_records files: 5952 |
