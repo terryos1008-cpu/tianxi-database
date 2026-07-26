@@ -1,4 +1,4 @@
-# Data Integrity Audit · 2026-07-25
+# Data Integrity Audit · 2026-07-26
 
 **Overall:** 🔴 `critical`  ·  critical gaps: **90**  ·  warn gaps: 19
 
