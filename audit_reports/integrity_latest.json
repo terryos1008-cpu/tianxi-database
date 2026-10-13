@@ -1,5 +1,5 @@
 {
-  "scan_date": "2026-10-12",
+  "scan_date": "2026-10-13",
   "repo_root": "/home/runner/work/tianxi-database/tianxi-database",
   "overall_severity": "critical",
   "critical_gap_count": 90,
@@ -122,8 +122,8 @@
     },
     "horse_profiles": {
       "name": "horse_profiles",
-      "expected": 728,
-      "present": 728,
+      "expected": 664,
+      "present": 664,
       "missing": [],
       "stale": [
         "H196",
@@ -149,8 +149,8 @@
     },
     "horse_form_records": {
       "name": "horse_form_records",
-      "expected": 728,
-      "present": 728,
+      "expected": 664,
+      "present": 664,
       "missing": [],
       "stale": [],
       "notes": [
