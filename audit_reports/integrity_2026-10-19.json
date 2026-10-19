@@ -1,0 +1,230 @@
+{
+  "scan_date": "2026-10-19",
+  "repo_root": "/home/runner/work/tianxi-database/tianxi-database",
+  "overall_severity": "critical",
+  "critical_gap_count": 90,
+  "warn_gap_count": 19,
+  "recommendation": "gha_next_delta_will_fix",
+  "categories": {
+    "race_artefacts": {
+      "name": "race_artefacts",
+      "expected": 715,
+      "present": 625,
+      "missing": [
+        "results_2026-05-13",
+        "commentary_2026-05-13",
+        "dividends_2026-05-13",
+        "sectional_times_2026-05-13",
+        "video_links_2026-05-13",
+        "results_2026-05-17",
+        "commentary_2026-05-17",
+        "dividends_2026-05-17",
+        "sectional_times_2026-05-17",
+        "video_links_2026-05-17",
+        "results_2026-05-20",
+        "commentary_2026-05-20",
+        "dividends_2026-05-20",
+        "sectional_times_2026-05-20",
+        "video_links_2026-05-20",
+        "results_2026-05-24",
+        "commentary_2026-05-24",
+        "dividends_2026-05-24",
+        "sectional_times_2026-05-24",
+        "video_links_2026-05-24",
+        "results_2026-05-27",
+        "commentary_2026-05-27",
+        "dividends_2026-05-27",
+        "sectional_times_2026-05-27",
+        "video_links_2026-05-27",
+        "results_2026-05-31",
+        "commentary_2026-05-31",
+        "dividends_2026-05-31",
+        "sectional_times_2026-05-31",
+        "video_links_2026-05-31",
+        "results_2026-06-03",
+        "commentary_2026-06-03",
+        "dividends_2026-06-03",
+        "sectional_times_2026-06-03",
+        "video_links_2026-06-03",
+        "results_2026-06-07",
+        "commentary_2026-06-07",
+        "dividends_2026-06-07",
+        "sectional_times_2026-06-07",
+        "video_links_2026-06-07",
+        "results_2026-06-10",
+        "commentary_2026-06-10",
+        "dividends_2026-06-10",
+        "sectional_times_2026-06-10",
+        "video_links_2026-06-10",
+        "results_2026-06-13",
+        "commentary_2026-06-13",
+        "dividends_2026-06-13",
+        "sectional_times_2026-06-13",
+        "video_links_2026-06-13",
+        "results_2026-06-21",
+        "commentary_2026-06-21",
+        "dividends_2026-06-21",
+        "sectional_times_2026-06-21",
+        "video_links_2026-06-21",
+        "results_2026-06-24",
+        "commentary_2026-06-24",
+        "dividends_2026-06-24",
+        "sectional_times_2026-06-24",
+        "video_links_2026-06-24",
+        "results_2026-06-27",
+        "commentary_2026-06-27",
+        "dividends_2026-06-27",
+        "sectional_times_2026-06-27",
+        "video_links_2026-06-27",
+        "results_2026-07-01",
+        "commentary_2026-07-01",
+        "dividends_2026-07-01",
+        "sectional_times_2026-07-01",
+        "video_links_2026-07-01",
+        "results_2026-07-04",
+        "commentary_2026-07-04",
+        "dividends_2026-07-04",
+        "sectional_times_2026-07-04",
+        "video_links_2026-07-04",
+        "results_2026-07-08",
+        "commentary_2026-07-08",
+        "dividends_2026-07-08",
+        "sectional_times_2026-07-08",
+        "video_links_2026-07-08",
+        "results_2026-07-12",
+        "commentary_2026-07-12",
+        "dividends_2026-07-12",
+        "sectional_times_2026-07-12",
+        "video_links_2026-07-12",
+        "results_2026-07-15",
+        "commentary_2026-07-15",
+        "dividends_2026-07-15",
+        "sectional_times_2026-07-15",
+        "video_links_2026-07-15"
+      ],
+      "stale": [],
+      "notes": [
+        "days with any missing artefact: 18"
+      ],
+      "severity": "critical"
+    },
+    "fixtures_cache": {
+      "name": "fixtures_cache",
+      "expected": 1,
+      "present": 143,
+      "missing": [],
+      "stale": [],
+      "notes": [
+        "no upcoming fixtures in next 30 days",
+        "total cached race days: 143"
+      ],
+      "severity": "warn"
+    },
+    "horse_profiles": {
+      "name": "horse_profiles",
+      "expected": 577,
+      "present": 577,
+      "missing": [],
+      "stale": [
+        "H196",
+        "G427",
+        "J344",
+        "J338",
+        "H432",
+        "J002",
+        "J271",
+        "H234",
+        "H229",
+        "J453",
+        "K200",
+        "K028",
+        "J213",
+        "J508"
+      ],
+      "notes": [
+        "14 profiles are stale (profile_last_scraped < last_race_date)",
+        "total profiles in DB: 5952"
+      ],
+      "severity": "warn"
+    },
+    "horse_form_records": {
+      "name": "horse_form_records",
+      "expected": 577,
+      "present": 577,
+      "missing": [],
+      "stale": [],
+      "notes": [
+        "total form_records files: 5952"
+      ],
+      "severity": "ok"
+    },
+    "jockey_profiles": {
+      "name": "jockey_profiles",
+      "expected": 32,
+      "present": 32,
+      "missing": [],
+      "stale": [],
+      "notes": [
+        "total jockey profiles: 64"
+      ],
+      "severity": "ok"
+    },
+    "jockey_records": {
+      "name": "jockey_records",
+      "expected": 64,
+      "present": 59,
+      "missing": [
+        "BA",
+        "BEP",
+        "BHW",
+        "CJR",
+        "HCY"
+      ],
+      "stale": [],
+      "notes": [
+        "5 jockey profiles have no records file"
+      ],
+      "severity": "warn"
+    },
+    "trainer_profiles": {
+      "name": "trainer_profiles",
+      "expected": 32,
+      "present": 32,
+      "missing": [],
+      "stale": [],
+      "notes": [
+        "total trainer profiles: 67"
+      ],
+      "severity": "ok"
+    },
+    "trainer_records": {
+      "name": "trainer_records",
+      "expected": 67,
+      "present": 67,
+      "missing": [],
+      "stale": [],
+      "notes": [],
+      "severity": "ok"
+    },
+    "trial_results": {
+      "name": "trial_results",
+      "expected": 1,
+      "present": 1,
+      "missing": [],
+      "stale": [],
+      "notes": [
+        "trial rows: 5904"
+      ],
+      "severity": "ok"
+    },
+    "entries_upcoming": {
+      "name": "entries_upcoming",
+      "expected": 0,
+      "present": 0,
+      "missing": [],
+      "stale": [],
+      "notes": [],
+      "severity": "ok"
+    }
+  }
+}
