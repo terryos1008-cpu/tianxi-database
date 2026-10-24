@@ -1,5 +1,5 @@
 {
-  "scan_date": "2026-10-23",
+  "scan_date": "2026-10-24",
   "repo_root": "/home/runner/work/tianxi-database/tianxi-database",
   "overall_severity": "critical",
   "critical_gap_count": 90,
@@ -122,8 +122,8 @@
     },
     "horse_profiles": {
       "name": "horse_profiles",
-      "expected": 484,
-      "present": 484,
+      "expected": 345,
+      "present": 345,
       "missing": [],
       "stale": [
         "H196",
@@ -149,8 +149,8 @@
     },
     "horse_form_records": {
       "name": "horse_form_records",
-      "expected": 484,
-      "present": 484,
+      "expected": 345,
+      "present": 345,
       "missing": [],
       "stale": [],
       "notes": [
@@ -160,8 +160,8 @@
     },
     "jockey_profiles": {
       "name": "jockey_profiles",
-      "expected": 32,
-      "present": 32,
+      "expected": 24,
+      "present": 24,
       "missing": [],
       "stale": [],
       "notes": [
@@ -188,8 +188,8 @@
     },
     "trainer_profiles": {
       "name": "trainer_profiles",
-      "expected": 32,
-      "present": 32,
+      "expected": 22,
+      "present": 22,
       "missing": [],
       "stale": [],
       "notes": [
